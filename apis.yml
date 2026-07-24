@@ -1,7 +1,29 @@
 aid: burt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/burt.png
 name: Burt
-description: Burt is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Burt builds AI teammates (AI coworkers) for logistics, aimed at freight
+  brokers and forwarders. Its agents automate the repetitive, manual work of
+  daily freight operations — track and trace, quoting, scheduling, carrier
+  booking, document processing, proof-of-delivery chasing, and invoice and data
+  entry — so human operators can focus on customer relationships and growing the
+  business. Burt gives full visibility into every AI action with human oversight
+  and approval workflows, rolls out autonomy gradually, and learns from
+  operator corrections and exceptions to build institutional knowledge over
+  time. Burt is a Y Combinator (Winter 2026) company. This profile was surfaced
+  as a portfolio company of Y Combinator and enriched by the API Evangelist
+  pipeline; Burt does not currently publish a public developer/API surface.
 url: https://raw.githubusercontent.com/api-evangelist/burt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Logistics
+- Freight
+- Supply Chain
+- Artificial Intelligence
+- Automation
+- Agents
+- B2B SaaS
 apis: []
+common:
+- type: Website
+  url: https://www.burthq.com/
+- type: PrivacyPolicy
+  url: https://www.burthq.com/docs/privacy
+- type: TermsOfService
+  url: https://www.burthq.com/docs/tos
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
